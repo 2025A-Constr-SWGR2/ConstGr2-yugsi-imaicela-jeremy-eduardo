@@ -1,6 +1,5 @@
 name: Node build
-run-name: Build nodejs app
-on: [push]
+run-name: Build, Lint y Test
 jobs:
   build:
     runs-on: [self-hosted]
@@ -15,6 +14,15 @@ jobs:
         working-directory: ./calculadora
         run: |
           npm install
+
+      - name: Ejecutar lint
+        working-directory: ./calculadora
+        run: npm run lint
+
+      - name: Ejecutar tests
+        working-directory: ./calculadora
+        run: npm run test
+
       - name: Compilar
         working-directory: ./calculadora
         run: |
