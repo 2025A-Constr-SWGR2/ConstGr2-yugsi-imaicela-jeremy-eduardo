@@ -1,0 +1,20 @@
+{
+  "name": "constgr2-yugsi-imaicela-jeremy-eduardo",
+  "version": "1.0.0",
+  "description": "Hola mundo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2025A-Constr-SWGR2/ConstGr2-yugsi-imaicela-jeremy-eduardo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2025A-Constr-SWGR2/ConstGr2-yugsi-imaicela-jeremy-eduardo/issues"
+  },
+  "homepage": "https://github.com/2025A-Constr-SWGR2/ConstGr2-yugsi-imaicela-jeremy-eduardo#readme"
+}
