@@ -16,7 +16,7 @@ jobs:
           node-version: '22.x'
 
       - name: Listar archivos del repositorio
-        run: ls -la
+        run: Get-ChildItem -Force
 
       - name: Instalar dependencias
         run: npm ci
