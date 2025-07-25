@@ -1,0 +1,11 @@
+{
+  "name": "2025a-swgr2-jeyi-division",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Villacis",
+  "license": "ISC",
+  "description": ""
+}
